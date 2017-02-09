@@ -1,0 +1,5 @@
+//via: http://jakearchibald.github.com/sass-ie/
+
+$old-ie: true;
+$fix-mqs: 65em;
+@import 'main';

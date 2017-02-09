@@ -1,0 +1,241 @@
+.nav-main-bar {
+	height: 100%;
+	position: fixed;
+	top: 0;
+	background-color: $brand-color;
+	@include respond-max(49.9375em) /* 799 */ {
+		display: block;
+		background-color: rgba($brand-color, .9);
+		@include vendor(transform, translate(0, -100%));
+		@include vendor(transition, all 300ms ease-in-out);
+	}
+	@include respond-min(50em) /* 800 */ {
+		display: none;
+	}
+	width: 100%;
+	z-index: 2;
+	will-change: transform;	
+}
+
+
+body.nav-is-active {
+	overflow: hidden;
+}
+
+body.nav-is-active .header-page,
+body.nav-is-active .content-main,
+body.nav-is-active .hero {
+	@include vendor(animation-name, filter-animation );
+	@include vendor(animation-duration, 300ms);
+	@include vendor(animation-timing-function, ease-in-out);
+	@include vendor(animation-delay, 0ms);
+	@include vendor(animation-fill-mode, both);
+    @include vendor(transform, translateZ(0));
+}
+
+@-webkit-keyframes filter-animation {
+	0% {
+	-webkit-filter: blur(0px);
+	}
+    
+	100% {
+	-webkit-filter: blur(5px);
+	}
+}
+
+@keyframes filter-animation {
+	0% {
+	filter: blur(0px);
+	}
+	
+	100% {
+	filter: blur(5px);
+	}
+}
+
+body.nav-is-active .nav-main-bar {
+	
+	@include respond-max(49.9375em) /* 799 */ {
+		@include vendor(transform, translate(0, 0));
+	}
+	@include respond-min(50em) /* 800 */ {
+		display: block;
+	}
+
+}
+
+
+.nav-main {
+	@include rem('padding-top', $base-spacing-unit);
+	
+	@include respond-min(50em) /* 800 */ {
+		@include rem('padding-top', $base-spacing-unit-double);
+	}
+}
+
+.nav-main li{
+	display: block;
+}
+
+.nav-main a {
+	color: #fff;
+	display: block;
+	@include rem('font-size', 44px);
+	font-weight: $bold;
+	line-height: 1;
+	opacity: 1;
+	@include rem('padding-left', $base-spacing-unit);
+	@include rem('padding-bottom', $base-spacing-unit-half);
+	@include vendor(transition, opacity 300ms ease-in-out);
+	@extend %spaced;
+	
+	&:hover {
+		color: #fff;
+		opacity: .5;
+	}
+	@include respond-min(50em) /* 800 */ {
+		@include rem('padding-left', $base-spacing-unit-double);
+		@include rem('padding-bottom', $base-spacing-unit);
+		font-size: 6vw;
+	}
+}
+
+/*
+ * An experiment evenly dividing the nav into horizontal rows
+ *	
+	
+.nav-main {
+	display: block;
+	height: 100%;
+	padding: 0;
+	position: relative;
+}
+
+.nav-main.active {
+	padding: 0;
+}
+
+.nav-main > li {
+	display: table;
+	height: 25%;
+	width: 100%;
+}
+
+.nav-main a {
+	color: #fff;
+	font-size: 10vw;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	
+	&:hover {
+		background-color: #fff;
+		color: $brand-color;
+		opacity: 1;
+	}
+}
+/* end */
+
+#nav-toggle { 
+	background: transparent;
+	display: block;	
+	position: absolute;
+	@include rem('padding', $base-spacing-unit-double );
+	z-index: $outerspace;
+	@include rem('top', 0px);
+	@include rem('right', 0px);
+    @include vendor(transform, translateZ(0));
+	
+	&:focus {
+		outline:none;
+	}
+	
+	@include respond-min(50em) /* 800 */ {
+	@include rem('top', $base-spacing-unit);
+	@include rem('right', $base-spacing-unit);
+	}
+	
+}
+
+#nav-toggle .toggle-icon, 
+#nav-toggle .toggle-icon:before, 
+#nav-toggle .toggle-icon:after {
+	background-color: $base-color;
+	border-radius: 1px;
+	cursor: pointer;
+	display: block;
+	height: 4px;
+	@include rem('margin-left', -15px);
+	position: absolute;
+	left: 50%;
+	@include rem('width', 30px);
+	content: '';
+	@include vendor(transition, all 300ms ease-in-out);
+}
+
+.about #nav-toggle .toggle-icon, 
+.about #nav-toggle .toggle-icon:before, 
+.about #nav-toggle .toggle-icon:after,
+.contact #nav-toggle .toggle-icon, 
+.contact #nav-toggle .toggle-icon:before, 
+.contact #nav-toggle .toggle-icon:after,
+.blog #nav-toggle .toggle-icon, 
+.blog #nav-toggle .toggle-icon:before, 
+.blog #nav-toggle .toggle-icon:after,
+.log-in #nav-toggle .toggle-icon, 
+.log-in #nav-toggle .toggle-icon:before, 
+.log-in #nav-toggle .toggle-icon:after {
+	background-color: #fff;
+}
+
+#nav-toggle .toggle-icon:before {
+	@include rem('top', -10px);
+}
+
+#nav-toggle .toggle-icon:after {
+	@include rem('bottom', -10px);
+}
+
+#nav-toggle:hover .toggle-icon:before {
+	@include respond-min(50em) /* 800 */ {
+		@include vendor(transform, translateY(-2px));
+	}
+}
+
+#nav-toggle:hover .toggle-icon:after {
+	@include respond-min(50em) /* 800 */ {
+		@include vendor(transform, translateY(2px));
+	}
+}
+
+body.nav-is-active #nav-toggle .toggle-icon {
+	background-color: transparent !important;
+}
+
+body.nav-is-active #nav-toggle .toggle-icon:before, 
+body.nav-is-active #nav-toggle .toggle-icon:after {
+	background-color: #fff;
+	top: 0;
+}
+
+body.nav-is-active #nav-toggle .toggle-icon:before {
+	@include vendor(transform, rotate(45deg));
+}
+
+body.nav-is-active #nav-toggle .toggle-icon:after {
+	@include vendor(transform, rotate(-45deg));
+}
+
+/*
+ * No CSS3
+ *
+ 
+.no-csstransforms .nav-main-bar {
+	top: -100%;
+}
+
+.no-csstransforms .nav-main-bar.active {
+	top: 0;
+}
+ */

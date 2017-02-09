@@ -1,0 +1,183 @@
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    padding: 0;
+    
+    @extend %clearfix;
+    
+	@include respond-max(59.9375em) /* 959 */ {
+        display: none;
+    }
+}
+
+.r-tabs .r-tabs-tab {
+	cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ 
+ .r-tabs-anchor {
+	background-color: transparent;
+	cursor: pointer;
+	display: block;
+	@include rem('padding-top', 30px );
+	@include rem('padding-right', $base-spacing-unit );
+	@include rem('padding-bottom', $base-spacing-unit );
+	@include rem('padding-left', $base-spacing-unit );
+	text-align:center;	
+	
+	&:focus {    
+		outline: none; 
+	}
+}
+
+ 
+.r-tabs .r-tabs-panel {
+    display: block;
+    height: 0px;
+	overflow:hidden;
+    opacity: 0px; 
+	@include vendor(transition, opacity 1s ease-in-out);
+	width: auto;
+}
+
+
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+    
+	@include respond-max(59.9375em) /* 959 */ {
+    	display: block;
+		@include rem('margin-bottom', $base-spacing-unit-double );
+    }
+}
+
+
+.r-tabs-state-active > a,
+.r-tabs-panel.r-tabs-state-active {
+	background-color: $base-ui-background;
+}
+
+.r-tabs-accordion-title.r-tabs-state-active {
+	margin-bottom: 0;
+}
+
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    opacity: 1; 
+    height: auto;
+}
+
+
+.profile-tabs .r-tabs-nav  > .r-tabs-tab {
+    float: left;
+    width: 33.33%;
+ }
+ 
+ .split-tabs .r-tabs-nav  > .r-tabs-tab {
+    float: left;
+    width: 50%;
+}
+
+.contact-form .r-tabs-anchor {
+	position:relative;
+	@include vendor(transition, all 300ms ease-in-out);
+}
+
+.contact-form  .r-tabs-anchor {
+	border-bottom: 1px solid $base-color-tertiary;
+	@include rem('font-size', 21px );
+	font-weight: $bold;
+	text-align: center;
+	@extend %spaced;
+	@include rem('padding-bottom', 80px );
+}
+
+.contact-form  li  + li .r-tabs-anchor {
+	border-left: 1px solid $base-color-tertiary;
+}
+
+.contact-form  .r-tabs-state-active .r-tabs-anchor {
+	color: $base-color;
+	border-color: transparent;
+}
+
+.contact-form .r-tabs-state-active > a,
+.contact-form .r-tabs-panel.r-tabs-state-active {
+	background-color: #fff;
+}
+
+.contact-form  .toggle-icon {
+	position: absolute;
+	bottom: 35%;
+	left: 50%;
+}
+
+.contact-form .toggle-icon:before, 
+.contact-form  .toggle-icon:after {
+	background-color: $base-color-tertiary;
+	cursor: pointer;
+	display: block;
+	height: 2px;
+	@include rem('margin-left', -10px);
+	position: absolute;
+	left: 50%;
+	@include rem('width', 20px);
+	content: '';
+	@include vendor(transition, all 300ms ease-in-out);
+}
+
+
+.contact-form  .toggle-icon:before {
+	@include vendor(transform, rotate(90deg));
+}
+
+.contact-form .toggle-icon:hover .toggle-icon:before {
+	@include respond-min(50em) /* 800 */ {
+		color: $base-color;
+	}
+}
+
+.contact-form  .toggle-icon:hover .toggle-icon:after {
+	@include respond-min(50em) /* 800 */ {
+		color: $base-color;
+	}
+}
+
+
+.r-tabs-state-active .r-tabs-anchor .toggle-icon:before, 
+.r-tabs-state-active .r-tabs-anchor .toggle-icon:after {
+	background-color: $brand-color;
+}
+
+.r-tabs-state-active .r-tabs-anchor  .toggle-icon:before {
+	@include vendor(transform, rotate(0deg));
+}
+
+
+.tab-content {
+	@include rem('padding-top', $base-spacing-unit);
+    @include rem('padding-right', $base-spacing-unit);
+    @include rem('padding-bottom', $base-spacing-unit);
+    @include rem('padding-left', $base-spacing-unit);
+    
+    @include respond-min(60em) /* 960 */ {
+			@include rem('padding', $base-spacing-unit-double);
+    }
+}
+
+.contact-form .tab-content {
+	@include rem('padding-top', $base-spacing-unit-half);
+    @include rem('padding-right', $base-spacing-unit-half);
+    @include rem('padding-bottom', $base-spacing-unit);
+    @include rem('padding-left', $base-spacing-unit-half);
+    
+    @include respond-min(60em) /* 960 */ {
+			@include rem('padding', $base-spacing-unit);
+		    @include rem('padding-bottom', $base-spacing-unit-double);
+    }
+}
+
+

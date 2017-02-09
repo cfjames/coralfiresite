@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-hmvxxv');
+	src:url('fonts/icomoon.eot?#iefix-hmvxxv') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-hmvxxv') format('woff'),
+		url('fonts/icomoon.ttf?-hmvxxv') format('truetype'),
+		url('fonts/icomoon.svg?-hmvxxv#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cf-vcard:before {
+	content: "\e60c";
+}
+
+.icon-cf-plus:before {
+	content: "\e600";
+}
+
+.icon-cf-minus:before {
+	content: "\e601";
+}
+
+.icon-cf-close:before {
+	content: "\e602";
+}
+
+.icon-cf-arrow-left:before {
+	content: "\e603";
+}
+
+.icon-cf-arrow-right:before {
+	content: "\e604";
+}
+
+.icon-cf-arrow-up:before {
+	content: "\e605";
+}
+
+.icon-cf-arrow-down:before {
+	content: "\e606";
+}
+
+.icon-cf-upside:before {
+	content: "\e607";
+}
+
+.icon-cf-angle-left:before {
+	content: "\e608";
+}
+
+.icon-cf-angle-right:before {
+	content: "\e609";
+}
+
+.icon-cf-angle-up:before {
+	content: "\e60a";
+}
+
+.icon-cf-angle-down:before {
+	content: "\e60b";
+}
+

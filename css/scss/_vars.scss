@@ -1,0 +1,91 @@
+/*
+ * Base
+ */
+
+
+/* Base Type */ 
+
+$base-font-family: 'freight-sans-pro',sans-serif;
+$secondary-font-family: 'freight-text-pro', serif;
+
+$base-font-size: 17px;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+
+
+/* Base Color */ 
+$base-color: #67727B;
+$base-color-secondary: #8D969C;
+$base-color-tertiary: #B3B9BD;
+
+$base-ui-color: #ecf1f4;
+$base-ui-background: #F8F8F9;
+
+
+/* Base Space */ 
+$base-spacing-unit: 20px; 
+
+/*Larger space*/
+$base-spacing-unit-double: $base-spacing-unit * 2;
+
+/*Smaller space*/
+$base-spacing-unit-half: $base-spacing-unit / 2;   
+$base-spacing-unit-quarter: $base-spacing-unit / 4;   
+
+
+
+
+
+/*
+ * Colors
+ */
+ 
+$brand-color: #E55941; 
+$brand-white: #fff;
+
+/*
+ * Type
+ */
+ 
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 600;
+
+
+/*
+ * Border Radius
+ */	
+$brand-radius: 2px;
+
+/*
+ * Borders
+ */
+
+$brand-border: 1px solid rgba($base-color, .2);
+
+
+/*
+ * Width
+ */
+
+$palm-width: 37.5em;
+$laptop-width: 37.5625em;
+$portable-down-width: 63.9375em;
+$portable-width: 64em;
+$desk-width: 75em;
+
+$max-column: 1400px; 
+ 
+
+/*
+ * z-index - based on layers of the atmosphere
+ */
+ 
+$outerspace: 9999; /* page frames */  
+$exosphere: 9000; /* modals */  
+$thermosphere: 8000; /* modal backgrounds */  
+$mesosphere: 7000;  /* popovers */
+$stratosphere: 6000;   
+$troposphere: 5000;   
+

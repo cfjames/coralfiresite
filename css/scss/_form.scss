@@ -1,0 +1,300 @@
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+$form-line: 63px;
+$error-color: #e55941;
+$error-background: #fceeec;
+$focus-color: #f9fafb;
+
+
+.form-wrapper {
+	background-color: #fff;
+	@include rem('padding', $base-spacing-unit );
+	
+	@include respond-min(64em) /* 800 */ {
+		@include rem('padding', $base-spacing-unit-double );
+	}
+}
+
+fieldset + fieldset {
+	border-top: 1px solid #e9edf0;
+	@include rem('margin-top', 10px );
+	@include rem('padding-top', 15px );
+	
+	@include respond-min(50em) /* 800 */ {
+		@include rem('margin-top', 20px );
+		@include rem('padding-top', 30px );
+	}
+
+}
+
+.fieldset-section-rule {
+	@include rem('margin-right', 20px );
+	@include rem('margin-left', 20px );
+	@include rem('padding-bottom', 10px );
+}
+
+.text-input,
+.select,
+textarea{
+	background-color: #e9edf0;
+	border: none;
+	@include vendor(border-radius, 0px);
+	color: $base-color-secondary;
+	font-size: $base-font-size;
+	font-family: $base-font-family;
+	@include rem('margin-bottom', $base-spacing-unit );
+	@include rem('padding', $base-spacing-unit );
+	position: relative;
+	width: 100%;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	white-space: nowrap;
+	@include vendor(transition, background-color 300ms ease-out);
+	z-index: 1;
+}
+
+.text-input, .select {
+	height: $form-line;
+}
+
+textarea{
+	resize: none;
+}
+
+.text-input:focus,
+.text-input:active
+.select:focus,
+.select:active,
+textarea:focus,
+textarea:active {
+	background-color: $focus-color;
+}
+
+.form-fields{
+	list-style:none;
+	margin:0;
+	@include rem('margin-bottom', $base-spacing-unit );
+	padding: 0;
+}
+
+.form-fields:last-child{
+	@include rem('margin-bottom', 0px );
+}
+
+
+.form-fields > li{
+	@extend %clearfix;
+}
+
+
+.field-container {
+	position: relative;
+	@include rem('padding', 10px 20px );
+}
+
+
+label,
+.label {
+	color: $base-color-secondary;
+	display:block;
+	@include rem('font-size', 17px );
+	@include rem('margin-bottom', $base-spacing-unit-half );
+	position: relative;
+	text-align: left;
+	z-index: 1;
+
+	@extend %clearfix;
+	@extend %spaced;
+}
+
+
+label .additional,
+.label .additional {
+	color: $base-color-tertiary;
+	display: inline;
+	font-family: $secondary-font-family;
+	@include rem('font-size', 14px);
+	font-style: italic;
+	letter-spacing: normal;
+	position: relative;
+	text-transform: none;
+	z-index: 1;
+	
+	@include respond-min(50em) /* 800 */ {
+		float: right;
+	}
+}
+
+label .help,
+.label .help {
+	color: $base-color-secondary;
+    display:block;
+	font-weight:normal;
+	@include rem('margin-top', 5px );
+}
+
+
+
+/*
+ * Placeholder styles
+ */	
+
+::-webkit-input-placeholder {
+    color: $base-color-tertiary;
+    font-family: $base-font-family;
+	@include vendor(transition, opacity 300ms ease-out);
+	
+	@include respond-min(50em) /* 800 */ {
+		@include rem('font-size', 21px);
+		line-height: 1;
+	}
+
+}
+
+.text-input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+    opacity: .5;
+} 
+
+
+:-moz-placeholder { 
+    color: $base-color-tertiary;
+    font-family: $base-font-family;
+	@include vendor(transition, opacity 300ms ease-out);
+	
+	@include respond-min(50em) /* 800 */ {
+		@include rem('font-size', 21px);
+		line-height: 1;
+	}
+	
+}
+
+.text-input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+    opacity: .5;
+} 
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $base-color-tertiary;
+   font-family: $base-font-family;
+	@include vendor(transition, opacity 300ms ease-out);
+	
+	@include respond-min(50em) /* 800 */ {
+		@include rem('font-size', 21px);
+		line-height: 1;
+	}
+
+}
+
+.text-input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+    opacity: .5;
+} 
+
+:-ms-input-placeholder {  
+    color: $base-color-tertiary;
+    font-family: $base-font-family;
+	@include vendor(transition, opacity 300ms ease-out);
+	
+	@include respond-min(50em) /* 800 */ {
+		@include rem('font-size', 21px);
+		line-height: 1;
+	}
+	
+}
+
+.text-input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+    opacity: .5;
+} 
+
+
+.extra-help {
+	color: $base-color-secondary;
+	display: inline-block;
+	line-height: $form-line;
+	margin-left: $base-spacing-unit-half;
+	vertical-align: middle;
+}
+
+
+.check-list{
+	list-style:none;
+	margin:0;
+	padding: 0;
+}
+
+.check-list > li{
+	@include rem('margin-bottom', $base-spacing-unit-half );
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.check-label,
+.check-list > li label,
+.check-list > li .label{
+    display:inline-block;
+    margin-bottom: 0;
+	@include rem('padding-left', $base-spacing-unit-half );
+}
+
+
+
+.text-input.is-disabled,
+.select.is-disabled,
+textarea.is-disabled {
+	color: #ccc !important;
+	cursor:default;
+}
+
+.error {
+	color: $error-color !important;
+}
+
+.has-error {
+	border: 2px solid $error-color !important;
+}
+
+
+
+.ui-state-error.message {
+    background-color: $error-background;
+	color: $error-color;
+	@include rem('font-size', 14px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    text-align: right;
+	@include rem('padding-right', 20px );
+	@include rem('padding-top', 10px );
+    font-style: italic;
+}
+
+.ui-state-error.message-alert {
+    background-color: $error-background;
+	color: $error-color;
+	@include rem('font-size', 14px);
+    z-index: 0;
+    text-align: left;
+	@include rem('padding', 10px 20px );
+	@include rem('margin', 20px );
+    font-style: italic;
+}
+
+.ui-state-error.text-input:focus,
+.ui-state-error.select:focus,
+textarea.ui-state-error:focus {
+	background-color: $focus-color;
+}
+
+
+.form-modal {
+	display: none;
+}
+

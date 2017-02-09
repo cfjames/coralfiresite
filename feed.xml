@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>CoralFire - An Application Development and Digital Design Studio</title>
+    <link>http://coralfire.com</link>
+    <pubDate>Thu, 09 Feb 2017 21:28:10 -0000</pubDate>
+    
+    <item>
+      <title>SSA Web BRD</title>
+      <link>http://coralfire.com/pm/ey-ssa-web/ssa-web-brd</link>
+      <pubDate>Wed, 21 Sep 2016 16:29:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/ey-ssa-web/ssa-web-brd</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scenario Settings</title>
+      <link>http://coralfire.com/pm/ey-ssa-web/scenario-settings</link>
+      <pubDate>Sat, 30 Jul 2016 15:55:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/ey-ssa-web/scenario-settings</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Work: The Greenwich Tent Company Website</title>
+      <link>http://coralfire.com/blog/new-work-the-greenwich-tent-company-website</link>
+      <pubDate>Thu, 28 Jul 2016 22:07:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/blog/new-work-the-greenwich-tent-company-website</guid>
+      <description>&lt;p&gt;The &lt;a href=&quot;http://www.greenwichtent.com&quot;&gt;Greenwich Tent Company&lt;/a&gt; is an event rentals company in Fairfield County, Connecticut. They provide top quality event rentals throughout Connecticut and New York. Late last year we had the pleasure of working with them to &lt;a href=&quot;/blog/new-work-the-greenwich-tent-company/&quot;&gt;build their brand&lt;/a&gt;. We were excited to continue that work this year with a beautiful new website. &lt;/p&gt;
+
+&lt;h2&gt;Our Process&lt;/h2&gt;
+
+&lt;h3&gt;Design&lt;/h3&gt;
+
+&lt;p&gt;Our aim was to make the experience of browsing the Greenwich Tent Company’s website feel as elegant, and well-considered as the products they provide. We worked to highlight their commitment to craftsmanship, and attention to detail; and emphasize their wide-ranging capabilities that set them apart in the industry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ui_design_1.png&quot; alt=&quot;ui_design_1&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ui_design_2.png&quot; alt=&quot;ui_design_2&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ui_design_3.png&quot; alt=&quot;ui_design_3&quot;&gt; &lt;/p&gt;
+
+&lt;h3&gt;Icon Design&lt;/h3&gt;
+
+&lt;p&gt;The Greenwich Tent Company is all about attention to detail, and craftsmanship so using a generic icon set just wouldn’t cut it. We created a set of elegant, minimalist icons to help illustrate The Greenwich Tent Company process, and we extended the style to all the UI icons on the site. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/icons.png&quot; alt=&quot;icons&quot;&gt; &lt;/p&gt;
+
+&lt;h3&gt;Development&lt;/h3&gt;
+
+&lt;p&gt;We chose to build the site on &lt;a href=&quot;https://craftcms.com/&quot;&gt;Craft CMS&lt;/a&gt;. Craft enabled us to develop the site quickly, build in powerful features, and provide a user-friendly control panel for our clients to manage their content. All of this sits on top of fast &lt;a href=&quot;https://www.linode.com/&quot;&gt;Linode&lt;/a&gt; servers, secured and supercharged by &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;CloudFlare&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;We’ll post more details about our experience setting up the site on Linode and CloudFlare in the coming weeks.&lt;/p&gt;
+
+&lt;h2&gt;Services&lt;/h2&gt;
+
+&lt;h3&gt;Discovery&lt;/h3&gt;
+
+&lt;p&gt;Evaluation, 
+Creative Strategy, 
+User Persona Development&lt;/p&gt;
+
+&lt;h3&gt;Design&lt;/h3&gt;
+
+&lt;p&gt;User Flows, 
+Wireframing and Prototyping, 
+UI/UX Design, 
+Responsive Design&lt;/p&gt;
+
+&lt;h3&gt;Development&lt;/h3&gt;
+
+&lt;p&gt;Front End Development, 
+Back End Development, 
+CMS Development&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Small Business Guide to the Web: Responsive Web Design</title>
+      <link>http://coralfire.com/blog/a-small-business-guide-to-the-web-responsive-web-design</link>
+      <pubDate>Wed, 29 Jun 2016 13:16:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/blog/a-small-business-guide-to-the-web-responsive-web-design</guid>
+      <description>&lt;p&gt;In this installment of our &lt;a href=&quot;/blog/tags/guide-to-the-web/&quot;&gt;series&lt;/a&gt;, where we explain tech jargon in plain language, we&amp;rsquo;ll tackle the term responsive web design. &lt;/p&gt;
+
+&lt;h2&gt;Some Background&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/&quot;&gt;Responsive web design&lt;/a&gt;, was coined in a 2010 A List Apart &lt;a href=&quot;http://alistapart.com/article/responsive-web-design&quot;&gt;article&lt;/a&gt; by &lt;a href=&quot;http://ethanmarcotte.com/&quot;&gt;Ethan Marcotte&lt;/a&gt;. He proposed a new approach to web design that would allow sites to &lt;em&gt;respond&lt;/em&gt; to the properties of the device they were being viewed on. &lt;/p&gt;
+
+&lt;p&gt;Up until this point designers had been building sites with the assumption that they were being viewed on desktop or laptop-sized devices. But with the rise of the smart phone, users were being served desktop-sized sites squeezed into phone-sized browsers. &lt;/p&gt;
+
+&lt;p&gt;Cue squinting, pinching, and zooming. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/squinting.gif&quot; alt=&quot;squinting&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;Responsive web design is the answer to the problem. It recognizes our  &lt;a href=&quot;http://googlemobileads.blogspot.com/2012/08/navigating-new-multi-screen-world.html&quot;&gt;multi-device reality&lt;/a&gt;, and provides a set of strategies and technical approaches for the construction of resilient sites. &lt;/p&gt;
+
+&lt;h2&gt;So What?&lt;/h2&gt;
+
+&lt;h3&gt;If your site isn&amp;rsquo;t responsive&lt;/h3&gt;
+
+&lt;p&gt;Your site seems like it works pretty well — does it really matter that it&amp;rsquo;s not responsive? Almost certainly, yes. Responsive design isn&amp;rsquo;t some flavor of the week or a faddy design style. Mobile devices are the norm for navigating the web, researching products, and making purchases. Here are a few quick facts that illustrate help this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Consumers spend &lt;a href=&quot;https://blog.kissmetrics.com/surprising-mobile-ecommerce/&quot;&gt;more time shopping on mobile devices&lt;/a&gt; than desktops; &lt;/li&gt;
+&lt;li&gt;78% of mobile searches for local business information &lt;a href=&quot;https://blog.kissmetrics.com/surprising-mobile-ecommerce/&quot;&gt;result in a purchase&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;PayPal&amp;rsquo;s processed &lt;a href=&quot;http://www.fool.com/investing/general/2016/02/04/5-things-paypal-holdings-inc-wants-you-to-know.aspx&quot;&gt;$66 billion&lt;/a&gt; in mobile payments in 2015;&lt;/li&gt;
+&lt;li&gt;Google &lt;a href=&quot;https://support.google.com/adsense/answer/6196932?hl=en&quot;&gt;changed the way they rank sites&lt;/a&gt; to favor those that it detects are &lt;a href=&quot;https://developers.google.com/webmasters/mobile-sites/get-started&quot;&gt;mobile friendly&lt;/a&gt;.&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If your site isn&amp;rsquo;t responsive you&amp;rsquo;re increasingly missing out. If you&amp;rsquo;re not sure if your website is responsive Google has a &lt;a href=&quot;https://www.google.com/webmasters/tools/mobile-friendly/&quot;&gt;tool&lt;/a&gt; you can use to check.&lt;/p&gt;
+
+&lt;h3&gt;If your site is responsive&lt;/h3&gt;
+
+&lt;p&gt;You know your site works on a phone, so you&amp;rsquo;re good right? Maybe, but it depends. Not all responsive is created equal. It&amp;rsquo;s more than scaling images and stacking columns. If your site was designed primarily for desktop display and squeezed down to fit on a phone, your users may be downloading massive images and stylesheets they don&amp;rsquo;t need. This slows loading times and makes for an all around crummy user experience, and even &lt;a href=&quot;http://www.aberdeen.com/research/5136/ra-performance-web-application/content.aspx&quot;&gt;minor slow downs&lt;/a&gt; have been shown to negatively impact revenue.&lt;/p&gt;
+
+&lt;p&gt;Google&amp;rsquo;s mobile friendly &lt;a href=&quot;https://www.google.com/webmasters/tools/mobile-friendly/&quot;&gt;tool&lt;/a&gt; can help you determine some of this, but there&amp;rsquo;s no tool that can completely holistically evaluate user experience. Instead you can take some time, navigate your site on a phone, and make some observations about your experience. Here are a few things to look for to evaluate how your site performs.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Does it load quickly?&lt;/li&gt;
+&lt;li&gt;Does it feel fast, or does it stutter? &lt;/li&gt;
+&lt;li&gt;Is the navigation easy to use? &lt;/li&gt;
+&lt;li&gt;Can you find what you want?&lt;/li&gt;
+&lt;li&gt;Can you fill out a form or contact someone easily?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you find yourself answering no to a lot of these questions it may be time to think about updating your site.&lt;/p&gt;
+
+&lt;h2&gt;How Can We Help?&lt;/h2&gt;
+
+&lt;p&gt;If you need help updating your site, or you&amp;rsquo;re not sure where to go from here, &lt;a href=&quot;/contact&quot;&gt;contact us&lt;/a&gt;, we&amp;rsquo;d be happy to talk. &lt;/p&gt;
+
+&lt;h2&gt;Further Reading&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://alistapart.com/article/thinking-responsively-a-framework-for-future-learning&quot;&gt;Thinking Responsively: A Framework for Future Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://alistapart.com/article/planning-for-performance&quot;&gt;Planning for Performance&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bradfrost.com/blog/web/mobile-first-responsive-web-design/&quot;&gt;Mobile First Responsive Web Design&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;em&gt;If you liked this article you can read more in the series &lt;a href=&quot;/blog/tags/guide-to-the-web/&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development Testing Site</title>
+      <link>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/development-testing-site</link>
+      <pubDate>Wed, 08 Jun 2016 17:55:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/development-testing-site</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wireframes</title>
+      <link>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/wireframes</link>
+      <pubDate>Mon, 09 May 2016 22:34:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/wireframes</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creative Brief</title>
+      <link>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/creative-brief</link>
+      <pubDate>Wed, 04 May 2016 19:55:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/creative-brief</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siteflow</title>
+      <link>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/siteflow</link>
+      <pubDate>Mon, 25 Apr 2016 15:19:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/siteflow</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Personas</title>
+      <link>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/user-personas</link>
+      <pubDate>Mon, 25 Apr 2016 15:18:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/user-personas</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Small Business Guide to the Web: SEO</title>
+      <link>http://coralfire.com/blog/a-small-business-guide-to-web-demystifying-buzzwords-seo</link>
+      <pubDate>Mon, 11 Apr 2016 16:30:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/blog/a-small-business-guide-to-web-demystifying-buzzwords-seo</guid>
+      <description>&lt;p&gt;This is the start of an occasional series on web development buzzwords. In each article we&amp;rsquo;ll take time to help demystify the tech jargon, and explain what these terms mean in plain language. In this installment we&amp;rsquo;ll tackle one of the most ubiquitous, and perhaps most misunderstood terms, SEO.&lt;/p&gt;
+
+&lt;p&gt;SEO is short for Search Engine Optimization. It refers to practices and strategies designed to help boost your site&amp;rsquo;s ranking in search results. Search engines want to provide their users with the most relevant results. To determine a site&amp;rsquo;s relevance they look at its content, and at what other sites are linking to it. The higher the relevance, the higher the ranking.&lt;/p&gt;
+
+&lt;h2&gt;A False Path&lt;/h2&gt;
+
+&lt;p&gt;Maybe you&amp;rsquo;ve seen SEO sold like a type of cure-all shortcut to the top of the search results. If only you wrangle your code in just the right way, the promise goes, you&amp;rsquo;ll be up to your eyeballs in traffic. It all sounds so enticing, but that&amp;rsquo;s not how it works. SEO isn&amp;rsquo;t a feature to tack onto a site, and there&amp;rsquo;s no magic code to get a number one ranking. In fact &lt;a href=&quot;https://support.google.com/webmasters/answer/66355?hl=en&quot;&gt;certain methods&lt;/a&gt; used to try and artificially boost page rank can even get a site banned from search results. If you encounter services that promise to deliver a certain page rank, be skeptical.&lt;/p&gt;
+
+&lt;h2&gt;A Better Approach&lt;/h2&gt;
+
+&lt;h3&gt;Content&lt;/h3&gt;
+
+&lt;p&gt;It&amp;rsquo;s really all about the content. Remember, users will only find search results useful if they are able to find what they&amp;rsquo;re looking for. Accordingly sites with highly relevant, helpful content are ranked higher in search results. To improve your place in the results, start by populating your site with well written, useful information. Consider adding a blog with regular posts, relevant to your industry. Good content will improve your ranking, and make it more likely that others will link to your site as well, further increasing its relevance. By definition, however, this is not a quick fix. It may take time to start seeing results, but be persistent and your audience will grow. &lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re not sure where to start with content, &lt;a href=&quot;https://abookapart.com/&quot;&gt;A Book Apart&lt;/a&gt; has some &lt;a href=&quot;https://abookapart.com/products/the-elements-of-content-strategy&quot;&gt;great&lt;/a&gt; &lt;a href=&quot;https://abookapart.com/products/content-strategy-for-mobile&quot;&gt;resources&lt;/a&gt; available.&lt;/p&gt;
+
+&lt;h3&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;Sites also need to be properly coded, to take full advantage of their content. Text should be cleanly, and appropriately marked up. &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; tags should be populated. Images should have &lt;code&gt;alt&lt;/code&gt; text describing what they are. Important text shouldn&amp;rsquo;t be rendered as images, preventing search engines from reading it. The site should be &lt;a href=&quot;https://developers.google.com/webmasters/mobile-sites/#how&quot;&gt;responsive&lt;/a&gt; (a term we will cover in a later post) to avoid low marks on mobile search ranking. &lt;/p&gt;
+
+&lt;p&gt;In many cases optimizing a site&amp;rsquo;s code is a simpler fix that can be addressed incrementally, but all the optimization in the world won&amp;rsquo;t make much of a difference if you have sparse, poor quality content. At its root, improving your page rank doesn&amp;rsquo;t lie in clever coding tricks designed for search engines, but in consistently providing content that&amp;rsquo;s great for people. Over time your efforts will pay off.&lt;/p&gt;
+
+&lt;h2&gt;Further Reading&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://support.google.com/webmasters/answer/40349?hl=en&quot;&gt;Steps to a Google-friendly site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf&quot;&gt;Google&amp;rsquo;s Search Engine Starter Guide&lt;/a&gt; (PDF)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;em&gt;If you liked this article you can read more in the series &lt;a href=&quot;/blog/tags/guide-to-the-web/&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Application Development Punchlist</title>
+      <link>http://coralfire.com/pm/ey-ssa-web/application-development-punchlist</link>
+      <pubDate>Wed, 06 Apr 2016 20:52:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/ey-ssa-web/application-development-punchlist</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Work: Revelution Fitness Web Redesign</title>
+      <link>http://coralfire.com/blog/new-work-revelution-fitness-web-redesign</link>
+      <pubDate>Tue, 05 Apr 2016 15:29:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/blog/new-work-revelution-fitness-web-redesign</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/assets/cf_revelution_fit_home__ipad.png&quot; alt=&quot;cf_revelution_fit_home__ipad&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re excited to share new work for &lt;a href=&quot;http://revelutionfit.com/&quot;&gt;Revelution Fitness&lt;/a&gt;, a Crossfit Gym in Norwalk, Connecticut. Revelution Fitness recently underwent a rebranding process, and needed to refresh their website. We redesigned the site, took photos, and established a photographic style to reinforce their new visual language. &lt;/p&gt;
+
+&lt;p&gt;Revelution Fitness was happy with their experience with Wordpress, but wanted more than a boilerplate theme update, without the complication of building a custom template. We recommended &lt;a href=&quot;http://www.semplicelabs.com/&quot;&gt;Semplice Labs&lt;/a&gt;, built as portfolio building tool for designers. Choosing Semplice enabled us to provide great design on the platform they were already familiar with, quickly and simply.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Photoshoot 2</title>
+      <link>http://coralfire.com/pm/revelution-fitness-website/photoshoot-2</link>
+      <pubDate>Sat, 12 Mar 2016 19:17:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/revelution-fitness-website/photoshoot-2</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating Highly Scalable Applications Using Couchbase, Akka.Net, Akka.Persistence and Akka.Persistence.Couchbase</title>
+      <link>http://coralfire.com/blog/creating-highly-scalable-applications-using-couchbase-akka</link>
+      <pubDate>Tue, 23 Feb 2016 21:01:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/blog/creating-highly-scalable-applications-using-couchbase-akka</guid>
+      <description>&lt;p&gt;This article covers at a very high level what&amp;rsquo;s needed to start exploring the &lt;a href=&quot;https://github.com/ilhadad/Akka.Persistence.CouchBase&quot;&gt;Akka persistence plug-in&lt;/a&gt; when working together with &lt;a href=&quot;http://www.couchbase.com/&quot;&gt;Couchbase&lt;/a&gt;. It will also help you get a sample application running with Couchbase as a backend data store. If you&amp;rsquo;re new to Akka.Net, and/or Akka.Persistence we’ve written little story to help clarify what each component does. Otherwise if you’re more experienced, or short on time, &lt;a href=&quot;#details&quot;&gt;skip the story&lt;/a&gt; to get the details of the Akka.Persistence.Couchbase plugin.&lt;/p&gt;
+
+&lt;h2&gt;Our Story&lt;/h2&gt;
+
+&lt;p&gt;We open with a few friends, Couchbase, Akka.Net, and Akka.Persistence. Couchbase was a guy that could store, and store, and store things, and never lose his ability to retrieve them back when needed quickly. Akka.Net was an expert at doing things lots of things at the same time. No matter how much he was doing, he could always add more. Finally, there was Akka.Persistence — he was always recording what Akka.Net was up to. He would take snapshots every now and then, whenever Akka.Net told him to, and send them over to a guy by the name of Akka.Persistence.MongoDB to package, so MongoDB (another guy who knew how to store things) could put them away for later.  &lt;/p&gt;
+
+&lt;p&gt;Alas, there was trouble in paradise. Couchbase was lonely. No one knew how to talk to him. He yearned to be able to help his community, but there was nothing he could do. The Great Engineer in the Sky, seeing his distress, decided it was time to create someone who could both understand Akka.Persistence and Couchbase. Before long, the Great Engineer created Akka.Persistence.Couchbase. She (we need a female in this whole thing) was wise, efficient, and most importantly, understood how to help Akka.Persistence and Couchbase work together. Soon, all of them were working together in harmony.&lt;/p&gt;
+
+&lt;p&gt;As you’ve gathered by now this is a story about how Akka.Persistence.Couchbase came into existence.  &lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&quot;details&quot;&gt;This article intends to guide you on how to use Couchbase, Akka.Net, Akka.Persistence and Akka.Persistence.Couchbase together to create highly scalable applications. Let&amp;rsquo;s first spend a moment analyzing what each of these components bring to the table:&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Couchbase is an incredibly scalable document store. Most of all it supports N1QL which is a kind of SQL language for working against documents.&lt;/li&gt;
+&lt;li&gt;Akka.Net is a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET &amp;amp; Mono. It is based on a message passing actor model paradigm just like Erlang, Akka(for Java), and Microsoft Orleans.&lt;/li&gt;
+&lt;li&gt;Akka.Persistence is a plugin that allows you to:
+
+&lt;ul&gt;
+&lt;li&gt;Journal commands issued to your actor - which can later be used to restore the state of the actor.&lt;/li&gt;
+&lt;li&gt;Snapshot the state of your actor - which can be used to restore the state of an actor at a particular moment in time.&lt;/li&gt;
+&lt;li&gt;Akka.Persistence.Couchbase is another plugin that has a symbiotic relationship with Akka.Persistence. As we learned in the story above, its role is to memorialize, or retrieve journal or snapshots from Couchbase.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Why is this combination so useful? All these components bring to an application scalability, resilience, auditability and performance to the .NET world.  Many corporations have made heavy investments in .NET, so switching to other infrastructures such as Java and Erlang would be difficult to justify. In a future article, I will go into the details of why these components working together make sense.  For now let&amp;rsquo;s dig into how to make it work together.&lt;/p&gt;
+
+&lt;p&gt;To start with let me provide some background reference materials which will be useful in understanding, conceptually, how these components work:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://getakka.net/&quot;&gt;Akka System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://getakka.net/docs/Persistence&quot;&gt;Akka.Persistence&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;For a &lt;a href=&quot;http://bartoszsypytkowski.com/how-akka-net-persistence-works/&quot;&gt;conceptual understanding of does this pluging works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For a &lt;a href=&quot;https://petabridge.com/blog/intro-to-persistent-actors/&quot;&gt;high-level tour of the code&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://developer.couchbase.com/documentation/server/4.1/sdks/dotnet-2.2/dotnet-intro.html&quot;&gt;Couchbase SDK V2.2&lt;/a&gt; - All you need to know about getting .Net to work with Couchbase&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each of these sites contains information on these components.&lt;/p&gt;
+
+&lt;p&gt;At a high level these are the steps you need to take to set-up your own development environment:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download and install &lt;a href=&quot;http://www.couchbase.com/nosql-databases/downloads&quot;&gt;Couchbase 4.1&lt;/a&gt; or higher.&lt;/li&gt;
+&lt;li&gt;Create a bucket using the administrative console and call it &amp;ldquo;akkatest&amp;rdquo;. This is where we will be storing the journal and snapshot entries.&lt;/li&gt;
+&lt;li&gt;Download the &lt;a href=&quot;https://github.com/ilhadad/Akka.Persistence.CouchBase&quot;&gt;Akka.Persistence.Couchbase project&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You will need enable your Visual Studio to allow Nuget to restore all the necessary packages to your project.&lt;/li&gt;
+&lt;li&gt;Run the PersistenceSample project from within Visual Studio(2013 or higher).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once you’ve completed these steps the sample application will have written some journal and snapshot entries into the &amp;ldquo;akkatest&amp;rdquo; bucket in Couchbase. Of course this is a very simple application developed by the guys at &lt;a href=&quot;http://getakka.net/&quot;&gt;Akka.Net&lt;/a&gt; (thanks guys!). The goal is to show how to configure things to provide a springboard into your own development using these tools.&lt;/p&gt;
+
+&lt;p&gt;In follow-up articles I will put together some additional samples and descriptions as to why these components play nicely with each other.&lt;/p&gt;
+
+&lt;p&gt;If you have questions, add them in the comments below, or  feel free to &lt;a href=&quot;/contact/&quot;&gt;reach out to us&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Photoshoot</title>
+      <link>http://coralfire.com/pm/revelution-fitness-website/photoshoot</link>
+      <pubDate>Tue, 23 Feb 2016 17:21:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/revelution-fitness-website/photoshoot</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coaches Headshots</title>
+      <link>http://coralfire.com/pm/revelution-fitness-website/coaches-headshots</link>
+      <pubDate>Tue, 23 Feb 2016 16:47:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/revelution-fitness-website/coaches-headshots</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Branding Survey</title>
+      <link>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/branding-survey</link>
+      <pubDate>Sat, 20 Feb 2016 00:15:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/branding-survey</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kick-off Meeting Notes</title>
+      <link>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/kick-off-meeting-notes</link>
+      <pubDate>Fri, 19 Feb 2016 23:35:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/kick-off-meeting-notes</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Start</title>
+      <link>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/start</link>
+      <pubDate>Fri, 19 Feb 2016 23:34:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-website/start</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landing Page</title>
+      <link>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-branding/landing-page</link>
+      <pubDate>Fri, 19 Feb 2016 23:33:00 +0000</pubDate>
+      <author>Christopher Beesley</author>
+      <guid>http://coralfire.com/pm/the-greenwich-tent-company/the-greenwich-tent-company-branding/landing-page</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,510 @@
+/* ==========================================================================
+   Objects
+   ========================================================================== */
+
+/* 
+ * headings
+ */
+h1 b, 
+.alpha b,
+h2 b, 
+.beta b,
+h3 b, 
+.gamma b,
+h4 b, 
+.delta b,
+h5 b, 
+.epsilon b, 
+h6 b, 
+.zeta b {
+	color: $base-color;
+	font-weight: $regular;
+}
+   
+/* 
+ * lists
+ */
+ 
+.ui-list, 
+.bare-list, 
+.block-list,
+.list-center,
+.list-content-centered {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.block-list {
+	@include rem('margin-bottom', $base-spacing-unit  );
+}
+
+.block-list:last-child {
+	@include rem('margin-bottom', 0px  );
+}
+
+
+.block-list > li {
+	@include rem('margin-bottom', $base-spacing-unit  );
+	@extend %clearfix;
+}
+
+
+.block-list > li:last-child {
+	margin-bottom: 0;
+}
+
+.block-list-separated > li{
+	border-bottom: 1px solid $base-ui-color;
+	@include rem('padding-bottom', $base-spacing-unit  );
+}
+
+.block-list-separated > li:last-child {
+	border-bottom: none;
+	padding-bottom: 0;	
+}
+
+.list-group,
+.list-split,
+.list-center {
+	@extend %clearfix;
+}
+
+.list-split > li{
+	float: right;
+}
+
+.list-split > li:first-child{
+	float: left;
+}
+
+.list-center {
+	display: table;
+	margin: 0 auto;
+}
+
+.list-center > li {
+	float: left;
+	@include rem('margin-right', $base-spacing-unit-half);
+	
+	&:last-child {
+		@include rem('margin-right', 0px);
+	}
+}
+
+.palm-list-center {
+	@include respond-min($palm-width) /* 480 */ {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+.palm-down-list-center {
+	@include respond-max($palm-width) /* 480 */ {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+.lap-list-center {
+	@include respond-min($laptop-width) /* 600px */ {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+.lap-down-list-center {
+	@include respond-max(37.4375em) /* 599px */ {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+.portable-list-center {
+	@include respond-min($portable-width) /* 1024px */ {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+.portable-down-list-center {
+	@include respond-max(63.9375em) /* 1023px */ {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+.desk-list-center {
+	@include respond-min($desk-width) /* 1200 */ {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+
+.list-content-center > li {
+	text-align: center;
+	@include rem('margin-bottom', $base-spacing-unit-half );
+	
+	&:last-child,
+	&:only-child {
+		@include rem('margin-bottom', 0px );
+	}
+}
+
+.list-cols {
+	@extend %clearfix
+}
+
+.list-cols > li {
+	float: left;
+}
+
+.list-cols-separate {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	@extend %clearfix
+}
+
+.list-cols-separate > li {
+	@include rem('padding-left', $base-spacing-unit );
+	@include rem('padding-right', $base-spacing-unit );
+	
+	@include respond-max(37.5em) /* 600 */ {
+		@include rem('margin-bottom', $base-spacing-unit-double );
+	}
+	
+	&:last-child {
+		@include respond-max(37.5em) /* 600 */ {
+			@include rem('margin-bottom', 0px );
+		}
+	}
+	
+	& + li {
+		@include respond-min(37.5625em) /* 601 */ {
+			border-left: $brand-border;
+		}
+	}
+}
+
+.list-cols-separate-centered  {
+	text-align: center;
+}
+
+.list-cols-separate-centered ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* 
+ * Text 
+ */
+
+.palm-text-center {
+	@include respond-min($palm-width) /* 480 */ {
+		text-align: center;
+	}
+}
+
+.palm-down-text-center {
+	@include respond-max($palm-width) /* 480 */ {
+		text-align: center;
+	}
+}
+
+.lap-text-center {
+	@include respond-min($laptop-width) /* 600px */ {
+		text-align: center;
+	}
+}
+
+.lap-down-text-center {
+	@include respond-max(37.4375em) /* 599px */ {
+		text-align: center;
+	}
+}
+
+.portable-text-center {
+	@include respond-min($portable-width) /* 1024px */ {
+		text-align: center;
+	}
+}
+
+.portable-down-text-center {
+	@include respond-max(63.9375em) /* 1023px */ {
+		text-align: center;
+	}
+}
+
+.desk-text-center {
+	@include respond-min($desk-width) /* 1200 */ {
+		text-align: center;
+	}
+}
+
+
+/* 
+ * btns 
+ */
+ 
+$btn-padding-regular: 1.1111em;
+$btn-padding-larger: 2.2222em;
+$btn-padding-smaller: 0.5555em;
+
+.btn {
+	cursor: pointer;
+	display: inline-block;
+	font-size: inherit;
+	line-height: 2.25;
+	border:none;                
+    margin:0;                   
+    padding-top:   0;           
+    padding-bottom:0;
+    padding-right: $btn-padding-regular;
+	padding-left: $btn-padding-regular;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space:nowrap; 
+}
+
+.btn:active,
+.btn:focus {
+	outline:none;
+}
+
+.btn-full {
+	float: none;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+
+.btn-continue {
+	float: right;
+}
+
+.btn-call-to-action {
+	@include rem('margin-top', $base-spacing-unit );
+	
+	@include respond-min(60em) /* 960px */ {
+		@include rem('margin-top', $base-spacing-unit-double );
+	}
+}
+
+.btn-large {
+    padding-right: $btn-padding-larger;
+	padding-left: $btn-padding-larger;
+}
+
+.btn-small {
+    padding-right: $btn-padding-smaller;
+	padding-left: $btn-padding-smaller;
+}
+
+.btn-text {
+	white-space:nowrap; 
+}
+
+/* 
+ * btn-lists 
+ */
+
+.btn-group li {
+	float: left;
+	margin-left: -1px;
+}
+
+.btn-group > li:first-child .btn {
+	-webkit-border-top-right-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-radius-topright: 0;
+	-moz-border-radius-bottomright: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.btn-group > li:last-child .btn {
+	-webkit-border-top-left-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-bottomleft: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.btn-icon-first {
+	@include rem('padding-right', $base-spacing-unit-half  );
+}
+
+.btn-icon-last{
+	@include rem('padding-left', $base-spacing-unit-half  );
+}
+
+.btn-icon-chevron {
+	position: relative;
+	margin-right: -5px;
+	right: 2px;
+
+	@include vendor(transition, right 300ms ease-in-out);
+}
+
+
+.btn:hover .btn-icon-chevron {
+	right: -2px;
+}
+
+
+
+
+ 
+/* 
+ * Island 
+ */
+
+.island {
+	display: block;
+	@include rem('margin-bottom', $base-spacing-unit  );
+	@include rem('padding', $base-spacing-unit  );
+}
+
+.islet {
+	display: block;
+	@include rem('margin-bottom', $base-spacing-unit  );
+	@include rem('padding', ($base-spacing-unit / 2)  );
+}
+
+.island:last-child,
+.islet:last-child {
+	margin-bottom: 0;
+}
+ 
+ 
+ 
+/* 
+ * Landmark
+ */
+  
+.landmark {
+	display: block;
+	@include rem('margin-bottom', $base-spacing-unit * 2 );
+}
+
+.landmark-major {
+	@include rem('margin-bottom', ($base-spacing-unit * 4) );
+}
+
+
+.page-layer {
+
+	@include rem('padding-top', ($base-spacing-unit) );
+	@include rem('padding-bottom', ($base-spacing-unit) );
+	position:relative;
+	@extend %clearfix;
+	width: auto;
+	
+	@include respond-min(60em) /* 960px */ {
+		@include rem('padding-top', ($base-spacing-unit-double) );
+		@include rem('padding-bottom', ($base-spacing-unit-double) );
+	}
+	
+}
+
+.layer-thick {
+	@include rem('padding-top', ($base-spacing-unit-double) );
+	@include rem('padding-bottom', ($base-spacing-unit-double) );
+	
+	@include respond-min(60em) /* 960px */ {
+		@include rem('padding-top', ($base-spacing-unit * 6) );
+		@include rem('padding-bottom', ($base-spacing-unit * 6) );
+	}
+}
+
+.layer-thin {
+	@include rem('padding-top', ($base-spacing-unit * 2) );
+	@include rem('padding-bottom', ($base-spacing-unit * 2) );
+}
+
+
+
+
+/* 
+ * Flex Container
+ */
+
+.flex-container {
+	@include rem('margin-top', ($base-spacing-unit-half) );
+	@include rem('margin-bottom', ($base-spacing-unit) );
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.flex-container iframe,   
+.flex-container object,  
+.flex-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+ * Media Object
+ */
+
+
+/**
+ * Place any image- and text-like content side-by-side, as per:
+ * stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code
+ * E.g.:
+ *
+   <div class=media>
+       <img src=http://placekitten.com/200/300 alt="" class=media-img>
+       <p class=media-body>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+   </div>
+ *
+ */
+
+ 
+.media{
+    display:block;
+    @extend %clearfix;
+}
+    .media-img{
+        float:left;
+        margin-right:$base-spacing-unit;
+    }
+
+    .medi-img-rev{
+        float:right;
+        margin-left:$base-spacing-unit;
+    }
+
+        .media-img img,
+        .media-img-rev img{
+            display:block;
+        }
+
+    .media-body{
+        overflow:hidden;
+    }
+        .media-body,
+        .media-body > :last-child{
+            margin-bottom:0;
+        }
+
+
+    .islet .media-img{
+        margin-right:$base-spacing-unit-half;
+    }
+    .islet .media-img-rev{
+        margin-left:$base-spacing-unit-half;
+    }
+

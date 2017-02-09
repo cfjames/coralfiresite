@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hadad;Abe
+FN:Abe Hadad
+ORG:CoralFire
+TITLE:Vice President and Development Lead
+PHOTO;VALUE=URL;TYPE=JPEG:http://www.coralfire.com/assets/cf_abe.jpg
+TEL;TYPE=WORK,VOICE:(203) 803-2361
+URL:http://www.coralfire.com
+EMAIL;TYPE=PREF,INTERNET:ibrahim.hadad@coralfire.com
+END:VCARD

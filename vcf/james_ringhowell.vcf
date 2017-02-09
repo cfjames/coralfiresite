@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ring-Howell;James
+FN:James Ring-Howell
+ORG:CoralFire
+TITLE:President and Technology Lead
+PHOTO;VALUE=URL;TYPE=JPEG:http://www.coralfire.com/assets/cf_james.jpg
+TEL;TYPE=WORK,VOICE:(646) 761-4371
+URL:http://www.coralfire.com
+EMAIL;TYPE=PREF,INTERNET:james.ring-howell@coralfire.com
+END:VCARD

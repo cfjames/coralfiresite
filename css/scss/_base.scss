@@ -1,0 +1,366 @@
+/* ==========================================================================
+   Elements
+   ========================================================================== */
+
+::-moz-selection {
+    background-color: $brand-color;
+    color: #fff;
+	@include vendor(text-shadow, none);
+}
+
+::selection {
+    background-color: $brand-color;
+    color: #fff;
+	@include vendor(text-shadow, none);
+}
+   
+* {
+	text-rendering: optimizeLegibility;
+	@include vendor(font-smoothing, antialiased);
+}
+
+html, body {
+	height: 100%;	
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+	color: $base-color;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
+
+
+/* 
+ * headings
+ */
+
+h1, .alpha {
+	color: $base-color;
+	font-family: $base-font-family;
+	@include rem('font-size', 30px );
+	font-weight: $medium;
+	@include rem('margin-bottom', $base-spacing-unit );
+	
+	@include respond-min(64em) /* 1024 */ {
+		@include rem('font-size', 44px );
+		@include rem('margin-bottom', $base-spacing-unit-double );
+	}
+}
+
+h2, .beta {
+	color: $base-color;
+	font-family: $base-font-family;
+	@include rem('font-size', 27px );
+	font-weight: $bold;
+	@include rem('margin-bottom', $base-spacing-unit );
+	
+	@include respond-min(64em) /* 1024 */ {
+		@include rem('font-size', 34px );
+	}
+}
+
+h2:last-child, .beta:last-child {
+	@include rem('margin-bottom', 0px );
+}
+
+h3, .gamma {
+	color: $brand-color;
+	font-family: $base-font-family;
+	@include rem('font-size', 17px);
+	font-weight: $bold;
+	@include rem('margin-bottom', $base-spacing-unit);
+	@extend %spaced;
+	
+	@include respond-min(64em) /* 1024 */ {
+		@include rem('font-size', 21px);
+	}
+	
+}
+
+h4, .delta {
+	color: $base-color;
+	font-family: $base-font-family;
+	@include rem('font-size', 17px);
+	font-weight: $bold;
+	@include rem('margin-bottom', $base-spacing-unit-half);
+	@extend %spaced;
+	
+	@include respond-min(64em) /* 800 */ {
+		@include rem('font-size', 21px);
+	}
+}
+
+h5, .epsilon {
+	@include rem('font-size', 14px );
+	font-weight: $bold;
+	@include rem('margin-bottom', 0px );
+	
+	@include respond-min(64em) /* 1024 */ {
+		@include rem('font-size', 16px );
+	}
+}
+
+h6, .zeta  {
+	@include rem('font-size', 12px );
+	font-weight: $bold;
+	@include rem('margin-bottom', 0px );
+	
+	@include respond-min(60em) /* 960 */ {
+		@include rem('font-size', 14px );
+	}
+	
+}
+
+.alpha, .beta, .gamma, .delta, .epsilon, .zeta {
+	display: block;
+}
+
+.h-n {
+	margin-bottom: 0;
+}
+
+
+
+/*
+ * Anchors
+ */
+a{
+	color: $brand-color;
+	text-decoration: none;
+	
+}
+
+a:hover:not(.btn) {
+	color: $base-color;
+}
+
+.phone {
+	color: $base-color;
+}
+
+
+strong {
+	font-weight: $bold;
+}
+
+/*
+ * Lists
+ */
+ul,ol {
+	@include rem('margin-bottom', $base-spacing-unit );
+	padding-left: 1.25em;
+}
+/*
+ul:last-child,
+ol:last-child {
+	margin-bottom: 0;
+}
+*/
+
+
+/*
+ * Blockquotes
+ */
+ 
+q{
+
+    &:before{
+        content:"\201C";
+    }
+    &:after{
+        content:"\201D";
+    }
+}
+
+blockquote,
+.blockquote {
+    p:before{
+        content:"\201C";
+    }
+    
+    p:after{
+        content:"";
+    }
+    
+    p:last-of-type:after{
+        content:"\201D";
+    }
+
+    q:before{
+        content:"\201C";
+    }
+    q:after{
+        content:"\201D";
+    }
+}
+
+
+
+blockquote,
+.blockquote{
+	border-left: 5px solid #eee;
+    text-indent:-.65em;
+	@include rem('margin-top', $base-spacing-unit-double );
+	@include rem('margin-bottom', $base-spacing-unit-double );
+	@include rem('padding-left', 35px );
+
+    
+    p {
+    	color: $base-color-secondary;
+		font-size: 24px;
+		font-weight: $light;
+		font-style: italic;
+    }
+
+    p:last-of-type{
+        margin-bottom:0;
+    }
+}
+
+.source{
+    color: $base-color-secondary;
+    display:block;
+    font-size: $base-font-size * .90;
+    font-weight: $regular;
+    text-align: right;
+    text-indent:0;
+    @extend %spaced;
+   
+
+    &:before{
+        content:"\2014";
+    }
+}
+ 
+ 
+/* 
+ * rule
+ */
+ 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $base-ui-color;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/* 
+ * paragraphs
+ */
+
+p {
+
+	@include rem('font-size', $base-font-size );
+	@include rem('margin', 0 0 $base-spacing-unit 0 );
+	
+	@include respond-min(64em) /* 1024 */ {
+		@include rem('font-size', 21px );
+	}
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+
+.lead {
+	@include rem('font-size', 21px );
+	
+	@include respond-min(64em) /* 800px */ {
+		@include rem('font-size', 27px );
+	}
+}
+
+.lead:last-child {
+	margin-bottom: 0;
+}
+
+/* 
+ * images
+ */
+ 
+img {
+	max-width: 100%;
+}
+
+img [width],
+img [height] {
+	max-width: none;
+}
+
+/* 
+ * lists
+ */
+li > ol,
+li > ul {
+	margin-bottom: 0;
+}
+
+li {
+	@include rem('font-size', $base-font-size );
+	
+	@include respond-min(64em) /* 1024 */ {
+		@include rem('font-size', 21px );
+	}
+}
+
+
+pre,
+pre code,
+code {
+	font-family: Consolas, 'Lucida Console', monospace;
+	@include rem('font-size', $base-font-size );
+	
+	@include respond-min(64em) /* 1024 */ {
+		@include rem('font-size', 21px );
+	}
+}
+
+
+/* 
+ * small-print
+ */
+ 
+.small-print {
+	color: $base-color-secondary;
+	display: block;
+	@include rem('font-size', 14px );
+	@include rem('margin', $base-spacing-unit 0 );
+	
+	@include respond-min(60em) /* 960px */ {
+		@include rem('font-size', 16px );
+	}
+	
+}
+
+.small-print:last-child {
+	@include rem('margin-bottom', 0px );
+}
+
+.small-print:first-child {
+	margin-top: 0;
+}
+
+.svg-img {
+	box-sizing: content-box;
+	height: 1px;
+	position: relative;
+}
+
+.svg-img svg{
+	box-sizing: content-box;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

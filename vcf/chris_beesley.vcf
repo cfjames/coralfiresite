@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Beesley;Chris
+FN:Chris Beesley
+ORG:CoralFire
+TITLE:Creative Lead
+PHOTO;VALUE=URL;TYPE=JPEG:http://www.coralfire.com/assets/cf_chris.jpg
+TEL;TYPE=WORK,VOICE:(860) 377-4934
+URL:http://www.coralfire.com
+EMAIL;TYPE=PREF,INTERNET:christopher.beesley@coralfire.com
+END:VCARD

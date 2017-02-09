@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+
+*, *:before, *:after {
+	@include vendor(box-sizing, border-box)
+}
+
+
+body,h1,h2,h3,h4,h5,h6,
+p,blockquote,pre,
+dl,dd,ol,ul,
+form,fieldset,legend,
+table,th,td,caption,
+hr{
+    margin:0;
+    padding:0;
+}
+
+label,
+input,
+textarea,
+button,
+select,
+option{
+    cursor:pointer;
+}
+
+.text-input:active,
+.text-input:focus,
+textarea:active,
+textarea:focus{
+	cursor:text;
+	outline:none;
+}
+
+table {
+	border-collapse:separate;
+	border-spacing: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+img,
+picture {
+	border: none;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
