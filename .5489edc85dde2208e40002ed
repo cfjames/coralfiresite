@@ -1,18 +1,18 @@
 ---
-time: 1486676499
+time: 1486676580
 inventory:
   "/home/index.html":
-    md5: 09460ac0f2ee5f9e538e99f83f0c71ac
-    time: 1486676486
+    md5: 5d856112bf7d3a91c547e55976a61948
+    time: 1486676559
   "/index.html":
-    md5: 09460ac0f2ee5f9e538e99f83f0c71ac
-    time: 1486676486
+    md5: 5d856112bf7d3a91c547e55976a61948
+    time: 1486676559
   "/about/index.html":
     md5: 559376fc252e996d3210e90ca531fe6b
     time: 1486675683
   "/ethos/index.html":
-    md5: 0f10ad96be80abe5c8e5a9a84fae28bd
-    time: 1486676486
+    md5: 0c356dd5887cfa01bfc740b242b15918
+    time: 1486676560
   "/ethos/people-before-products/index.html":
     md5: 80e8a2d3f5d5bc22891dbdb764222400
     time: 1486675683
@@ -368,11 +368,11 @@ inventory:
     md5: 25142b10bf8a18e41cef9f325a925ece
     time: 1486675690
   "/sitemap.xml":
-    md5: ce92ebca2c6effef99357048a0c5f33c
-    time: 1486676491
+    md5: 52b214d08ea3016dd2f137462ab4b65a
+    time: 1486676572
   "/feed.xml":
-    md5: 86ea6a8404c6a9d8aad501f2a79c69f8
-    time: 1486676491
+    md5: dd3eff9224e5330576964a7203239eff
+    time: 1486676572
   "/assets/fit_over_fortune_large.jpg":
     md5: 01f9eb95e539ff5737ae551c41c6f48a
     time: 1486675690
